@@ -16,21 +16,6 @@ namespace Zadaniewpf
     /// </summary>
     /// 
 
-    const int DLUGOSC_HASLA = 10;
-    const string ZNAKI_SPECJALNE = "!@#$$%^&*())_+-=";
-    bool czyKoniec = false;
-    char znak;
-    string haslo = "";
-
-    int losujSpecjalny()
-    {
-        Random rand = new Random();
-        return rand.Next(0, ZNAKI_SPECJALNE.Length);
-    }
-
-    while(!czyKoniec){
-
-    }
 
 
 
@@ -40,5 +25,24 @@ namespace Zadaniewpf
         {
             InitializeComponent();
         }
+
+        private string GenerujHaslo ( int dlugosc, bool czyWielkieLitery, bool czyCyfry, bool czySpecjalne)
+        {
+            char[] haslo = new char[dlugosc];
+            Random random = new Random();
+            string maleLitery = "abcdefghijklmnopqrstuvwxyz";
+            string wielkielitery = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            string cyfry = "1234567890";
+            string znakiSpecjalne = "!@#$%^&*()_+-=";
+
+            for (int i = 0; i < dlugosc; i++)
+            {
+                haslo[i] = maleLitery[random.Next(maleLitery.Length)];
+            }
+        }
+
+
     }
+
+
 }
