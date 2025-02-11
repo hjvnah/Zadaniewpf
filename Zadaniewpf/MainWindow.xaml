@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Zadaniewpf"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="LightSteelBlue">
+        <GroupBox Header="Dane pracownika" Margin="48,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="238" Width="308"/>
+        <GroupBox Header="Generowanie hasła" Margin="436,48,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="238" Width="309"/>
+        <Button Content="Zatwierdź" Background="SteelBlue" Margin="226,334,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="52" Width="330" Foreground="White"/>
+        <Button Content="Generuj hasło" Background="SteelBlue" Margin="506,236,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="29" Width="168" Foreground="White"/>
+        <Label FontSize="14" Content="Ile znaków?" Margin="470,82,222,316" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox TextWrapping="Wrap" Margin="574,82,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="127" Height="29"/>
+        <CheckBox FontSize="14" Content="Małe i wielkie litery" Margin="491,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <CheckBox FontSize="14" Content="Cyfry" Margin="491,167,-491,-167" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <CheckBox FontSize="14" Content="Znaki specjalne" Margin="491,195,-491,-195" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
 
     </Grid>
 </Window>

@@ -14,6 +14,26 @@ namespace Zadaniewpf
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
+    const int DLUGOSC_HASLA = 10;
+    const string ZNAKI_SPECJALNE = "!@#$$%^&*())_+-=";
+    bool czyKoniec = false;
+    char znak;
+    string haslo = "";
+
+    int losujSpecjalny()
+    {
+        Random rand = new Random();
+        return rand.Next(0, ZNAKI_SPECJALNE.Length);
+    }
+
+    while(!czyKoniec){
+
+    }
+
+
+
     public partial class MainWindow : Window
     {
         public MainWindow()
