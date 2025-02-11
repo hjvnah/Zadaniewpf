@@ -16,6 +16,12 @@
         <CheckBox FontSize="14" Content="Małe i wielkie litery" Margin="491,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <CheckBox FontSize="14" Content="Cyfry" Margin="491,167,-491,-167" HorizontalAlignment="Left" VerticalAlignment="Top"/>
         <CheckBox FontSize="14" Content="Znaki specjalne" Margin="491,195,-491,-195" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Content="Imię" FontSize="14" Margin="77,82,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Label Content="Nazwisko" FontSize="14" Margin="77,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Label Content="Stanowisko" FontSize="14" Margin="77,185,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox TextWrapping="Wrap"  Margin="182,82,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="29"/>
+        <TextBox TextWrapping="Wrap"  Margin="182,135,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Height="29"/>
+        <ComboBox Margin="182,189,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Width="120"/>
 
 
     </Grid>
